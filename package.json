@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-fundme-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test", 
+    "test:staging": "npx hardhat test --network goerli",
+    "coverage": "npx hardhat coverage"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.3",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "ethers": "^5.7.2",
+    "hardhat-deploy": "^0.11.22"
+  }
+}
